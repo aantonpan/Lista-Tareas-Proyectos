@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             <p class="card-text">${proyecto.descripcion}</p>
                             <button class="btn btn-secondary" onclick="editarProyecto(${index})">Editar</button>
                             <button class="btn btn-danger" onclick="eliminarProyecto(${index})">Eliminar</button>
-                            <a href="tareas.html?proyecto=${index}" class="btn btn-primary">Ver Tareas</a>
+                            <a href="../pages/tareas.html?proyecto=${index}" class="btn btn-primary">Ver Tareas</a>
                         </div>
                     </div>
                 </div>`;
